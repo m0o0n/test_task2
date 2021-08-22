@@ -1,3 +1,16 @@
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(./../../assets/fonts/HelveticaNeueCyr-Light.woff);
+}
+
+@font-face {
+    font-family: HelveticaNeueBold;
+    src: url(./../../assets/fonts/HelveticaNeueCyr-Bold.woff);
+}
+
+button,div,span,a,p{
+    font-family: HelveticaNeue;
+}
 .logo{
     position: relative;
     display: flex;
@@ -10,6 +23,7 @@
     left: 75px;
 }
 .big{
+    font-family: HelveticaNeueBold;
     font-size: 41px;
     color: rgb(47, 162, 195);
     font-weight: bold;
